@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  background: url('./assets/image-neon.jpg') no-repeat;
+  color: #3363a1;
+  min-width: 230px;
+  max-width: 550px;
+  font-weight: 300;
+}
+
+.stopwatch {
+  position: relative;
+  border-radius: 2px;
+}  
+
+.headline {
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(175, 47, 47, 0.6);
+  text-rendering: optimizeLegibility;
+  margin: 20px auto;
+}
+
+.indicator {
+  background: #fff;
+  width: 100%;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(235, 65, 43);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border: none;
+  background: #fff;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 24px;
+}
+
+.button {
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 3px;
+  margin:  0 20px;
+
+  &:hover {
+    background-color: lightgray;
+  }
+}   
+
+.is-dark {
+  // background-color: #545151;
+  border-color: #545151;
+  color: rgb(24, 23, 23)
+}
